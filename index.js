@@ -8,6 +8,11 @@ app.get('/', function (req, res) {
   console.log("log test");
 });
 
+app.post('/', function (req, res) {
+  console.log("Hello modemcu");
+  console.log(req);
+});
+
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
 });
