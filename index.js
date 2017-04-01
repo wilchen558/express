@@ -10,7 +10,6 @@ app.get('/', function (req, res) {
 
 app.post('/', function (req, res) {
   console.log("Hello modemcu");
-  console.log(req);
 });
 
 app.listen(app.get('port'), function() {
